@@ -1,0 +1,2 @@
+Don't call inside loops,functions,nested condition
+Call hooks from react functional components,custom hooks
