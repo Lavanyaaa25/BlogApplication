@@ -9,6 +9,7 @@ const Layout = ({ search, setSearch,width }) => {
             <Header title="React JS Blog" width={width} />
             <Nav search={search} setSearch={setSearch} />
             <Outlet />
+            {/* used within the parent route element to indicate where a child route element should be rendered. */}
             <Footer />
         </div>
     )
